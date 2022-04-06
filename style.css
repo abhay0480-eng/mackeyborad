@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+
+section {
+  background-color: #dfe2e1;
+  width: 70%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.key {
+  background-color: #18191c;
+  color: #cacbce;
+  margin-right: 15px;
+  width: 70px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.keyf {
+  background-color: #18191c;
+  color: #cacbce;
+  margin-right: 15px;
+  width: 70px;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.functionkey {
+  font-size: 10px;
+}
+
+img {
+  width: 12px;
+}
+#sleep {
+  width: 14px;
+}
+#playpause {
+  width: 9px;
+}
+#fingerprint {
+  height: 38px;
+  width: 38px;
+}
+#delete {
+  width: 122px;
+  height: 57px;
+  position: relative;
+}
+.delete1 {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+#tab {
+  width: 130px;
+  height: 57px;
+  position: relative;
+}
+.tab1 {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+.alpha {
+  width: 70px;
+  height: 57px;
+}
+.letter {
+}
+
+#capslock {
+  width: 130px;
+  height: 57px;
+  position: relative;
+}
+.caps {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+.caps1 {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+#return {
+  width: 134px;
+  height: 57px;
+  position: relative;
+}
+
+#shift {
+  width: 175px;
+  height: 57px;
+  position: relative;
+}
+#spacebar {
+  width: 350px;
+  height: 57px;
+}
+#arrow {
+  width: 210px;
+  height: 57px;
+}
+#command {
+  width: 90px;
+  height: 57px;
+  position: relative;
+}
+#function {
+  position: relative;
+  width: 70px;
+  height: 57px;
+}
+.fn {
+  position: absolute;
+  left: 45px;
+  top: 5px;
+}
+.web {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  width: 16px;
+}
+.web1 {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+}
+.web2 {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+}
+.fn1 {
+  position: absolute;
+  left: 60px;
+  top: 5px;
+}
+.fn2 {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}

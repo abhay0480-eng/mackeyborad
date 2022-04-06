@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>MacBook Air</h1>
+    </header>
+    <main>
+      <section>
+        <!-- row 1 keys starts -->
+
+        <div class="row">
+          <div class="key">esc</div>
+          <div class="keyf">
+            <img src="./icons/brigh.svg" alt="" />
+            <p class="functionkey">F1</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/bright1.svg" alt="" />
+            <p class="functionkey">F2</p>
+          </div>
+          <div class="keyf">
+            <img src="" alt="" />
+            <p class="functionkey">F3</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/search.svg" alt="" />
+            <p class="functionkey">F4</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/mic.svg" alt="" />
+            <p class="functionkey">F5</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/sleep.svg" alt="" id="sleep" />
+            <p class="functionkey">F6</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/rewind.svg" alt="" />
+            <p class="functionkey">F7</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/playpause.svg" alt="" id="playpause" />
+            <p class="functionkey">F8</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/forward.svg" alt="" />
+            <p class="functionkey">F9</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/mute.svg" alt="" />
+            <p class="functionkey">F10</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/lowvolume.svg" alt="" />
+            <p class="functionkey">F11</p>
+          </div>
+          <div class="keyf">
+            <img src="./icons/upvolume.svg" alt="" />
+            <p class="functionkey">F12</p>
+          </div>
+          <div class="key" id="fingerprint"></div>
+        </div>
+
+        <!-- row 1 keys design ends -->
+
+        <!-- row 2 keys design starts 14 keys total -->
+        <div class="row">
+          <div class="key">
+            <p>~</p>
+            <p>`</p>
+          </div>
+          <div class="key">
+            <p>!</p>
+            <p>1</p>
+          </div>
+          <div class="key">
+            <p>@</p>
+            <p>2</p>
+          </div>
+          <div class="key">
+            <p>#</p>
+            <p>3</p>
+          </div>
+          <div class="key">
+            <p>$</p>
+            <p>4</p>
+          </div>
+          <div class="key">
+            <p>%</p>
+            <p>5</p>
+          </div>
+          <div class="key">
+            <p>^</p>
+            <p>6</p>
+          </div>
+          <div class="key">
+            <p>&</p>
+            <p>7</p>
+          </div>
+          <div class="key">
+            <p>*</p>
+            <p>8</p>
+          </div>
+          <div class="key">
+            <p>(</p>
+            <p>9</p>
+          </div>
+          <div class="key">
+            <p>)</p>
+            <p>0</p>
+          </div>
+          <div class="key">
+            <p>-</p>
+            <p>_</p>
+          </div>
+          <div class="key">
+            <p>+</p>
+            <p>=</p>
+          </div>
+          <div class="key" id="delete">
+            <p class="delete1">delete</p>
+          </div>
+        </div>
+
+        <!-- row 2 design completed -->
+
+        <!-- row 3 design starts total 14 keys -->
+        <div class="row">
+          <div class="key" id="tab">
+            <p class="tab1">tab</p>
+          </div>
+          <div class="key alpha">
+            <p onclick="display()" class="letter">Q</p>
+          </div>
+          <div class="key alpha">
+            <p>W</p>
+          </div>
+          <div class="key alpha">
+            <p>E</p>
+          </div>
+          <div class="key alpha">
+            <p>R</p>
+          </div>
+          <div class="key alpha">
+            <p>S</p>
+          </div>
+          <div class="key alpha">
+            <p>T</p>
+          </div>
+          <div class="key alpha">
+            <p>Y</p>
+          </div>
+          <div class="key alpha">
+            <p>U</p>
+          </div>
+          <div class="key alpha">
+            <p>I</p>
+          </div>
+          <div class="key alpha">
+            <p>O</p>
+          </div>
+          <div class="key alpha">
+            <p>P</p>
+          </div>
+          <div class="key">
+            <p>{</p>
+            <p>[</p>
+          </div>
+          <div class="key">
+            <p>}</p>
+            <p>]</p>
+          </div>
+          <div class="key">
+            <p>|</p>
+            <p>\</p>
+          </div>
+        </div>
+
+        <!-- row 3 design completed -->
+
+        <!-- row 4 starts designing -->
+        <div class="row">
+          <div class="key" id="capslock">
+            <p class="caps1">.</p>
+            <p class="caps">caps lock</p>
+          </div>
+          <div class="key alpha">
+            <p>A</p>
+          </div>
+          <div class="key alpha">
+            <p>S</p>
+          </div>
+          <div class="key alpha">
+            <p>D</p>
+          </div>
+          <div class="key alpha">
+            <p>F</p>
+          </div>
+          <div class="key alpha">
+            <p>G</p>
+          </div>
+          <div class="key alpha">
+            <p>H</p>
+          </div>
+          <div class="key alpha">
+            <p>J</p>
+          </div>
+          <div class="key alpha">
+            <p>K</p>
+          </div>
+          <div class="key alpha">
+            <p>L</p>
+          </div>
+          <div class="key">
+            <p>:</p>
+            <p>;</p>
+          </div>
+          <div class="key">
+            <p>"</p>
+            <p>'</p>
+          </div>
+          <div class="key" id="return">
+            <p class="delete1">return</p>
+          </div>
+        </div>
+
+        <!-- row 4 design completed  -->
+
+        <!-- row 5 designing starts -->
+        <div class="row">
+          <div class="key" id="shift">
+            <p class="caps">shift</p>
+          </div>
+          <div class="key alpha">
+            <p>Z</p>
+          </div>
+          <div class="key alpha">
+            <p>X</p>
+          </div>
+          <div class="key alpha">
+            <p>C</p>
+          </div>
+          <div class="key alpha">
+            <p>V</p>
+          </div>
+          <div class="key alpha">
+            <p>B</p>
+          </div>
+          <div class="key alpha">
+            <p>N</p>
+          </div>
+          <div class="key alpha">
+            <p>M</p>
+          </div>
+          <div class="key">
+            <p><</p>
+            <p>,</p>
+          </div>
+          <div class="key">
+            <p>></p>
+            <p>.</p>
+          </div>
+          <div class="key">
+            <p>?</p>
+            <p>/</p>
+          </div>
+          <div class="key" id="shift">
+            <p class="delete1">shift</p>
+          </div>
+        </div>
+
+        <!-- row 5 design completed -->
+
+        <!-- row 6 desiging starts -->
+
+        <div class="row">
+          <div class="key" id="function">
+            <p class="fn">fn</p>
+            <img class="web" src="./icons/web.svg" alt="" />
+          </div>
+          <div class="key" id="function">
+            <p class="fn">^</p>
+            <p class="web1">control</p>
+          </div>
+          <div class="key" id="function">
+            <p class="fn">⌥</p>
+            <p class="web1">option</p>
+          </div>
+          <div class="key" id="command">
+            <p class="fn1">⌘</p>
+            <p class="web2">command</p>
+          </div>
+          <div class="key" id="spacebar">
+            <p></p>
+          </div>
+          <div class="key" id="command">
+            <p class="fn2">⌘</p>
+            <p class="web2">command</p>
+          </div>
+          <div class="key" id="function">
+            <p class="fn">⌥</p>
+            <p class="web1">option</p>
+          </div>
+          <div class="key" id="arrow"></div>
+        </div>
+      </section>
+
+      <h2 id="display"></h2>
+    </main>
+    <script src="./keyboard.js" />
+  </body>
+</html>
